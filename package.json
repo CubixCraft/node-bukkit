@@ -1,0 +1,20 @@
+{
+  "name": "bukkit",
+  "description": "Bukkit's JSONAPI for Node.js",
+  "version": "0.0.0",
+  "author": "Jan Buschtöns <buschtoens@gmail.com>",
+  "contributors": [ 
+    { "name": "Jan Buschtöns", "email": "buschtoens@gmail.com" }
+  ],
+  "dependencies": { },
+  "devDependencies": { },
+  "keywords": [
+    "minecraft",
+    "bukkit",
+    "api"
+  ],
+  "repository": "git://github.com/CubixCraft/node-bukkit.js",
+  "main": "index",
+  "scripts": { },
+  "engines": { "node": "*" }
+}
