@@ -1,20 +1,15 @@
 {
   "name": "bukkit",
-  "description": "Bukkit's JSONAPI for Node.js",
-  "version": "0.0.0",
+  "description": "Wrapper for the famous Bukkit JSONAPI",
+  "version": "0.0.0",,
   "author": "Jan Buschtöns <buschtoens@gmail.com>",
   "contributors": [ 
     { "name": "Jan Buschtöns", "email": "buschtoens@gmail.com" }
   ],
-  "dependencies": { },
-  "devDependencies": { },
-  "keywords": [
-    "minecraft",
-    "bukkit",
-    "api"
-  ],
-  "repository": "git://github.com/CubixCraft/node-bukkit.js",
+  "license": "MIT",
+  "keywords": ["Bukkit", "Craftbukkit", "Minecraft", "API", "wrapper"],
+  "repository": "git://github.com/cubixcraft/node-bukkit",
   "main": "index",
-  "scripts": { },
-  "engines": { "node": "*" }
+  "engines": { "node": "*" },
+  "scripts": { "prepublish": "npm prune", "test": "make test" }
 }
